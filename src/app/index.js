@@ -13,6 +13,8 @@ const {
 } = require("./scripts/services/getMovimientos");
 import { URL_API } from "./scripts/services/data";
 
+import "./styles/style.scss";
+
 const tbody = document.getElementById("tablebody");
 const form = document.getElementById("form");
 
